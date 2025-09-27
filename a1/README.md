@@ -5,7 +5,7 @@
 
 </center>
 
-***Nombre:*** Saúl Expósito y Efrén Pérez.
+***Nombre:*** Saúl Expósito (user1) y Efrén Pérez (user2).  
 ***Curso:*** 2º de Ciclo Superior de Desarrollo de Aplicaciones Web.
 
 ### ÍNDICE
@@ -48,9 +48,102 @@ Aprender a colaborar en proyectos de desarrollo utilizando Git y GitHub.
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica incluyendo capturas de pantalla y explicando que vemos en ellas. 
+**1. Creación del repositorio inicial**
 
-Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
+Saúl creó un repositorio público en su cuenta de GitHub con el nombre git-work, añadiendo un fichero README.md y una licencia MIT.
+![primera imagen](img/Nuevas/1.png)
+
+**2. Subida de archivos al repositorio**
+
+Saúl clonó el repositorio y añadió los siguientes ficheros al proyecto:
+
+- index.html
+- bootstrap.min.css
+- cover.css
+
+Después, hizo el commit y los subió a origin/main.
+
+![segunda imagen](img/Nuevas/2.png)
+![tercera imagen](img/Nuevas/3.png)
+
+**3. Fork del repositorio por parte de Efrén**
+
+Efrén realizó un fork del repositorio git-work en su cuenta personal.
+
+![cuarta imagen](img/Nuevas/4.png)
+
+**4. Clonado del fork**
+
+Efrén clonó su fork localmente para trabajar en él.
+
+![quinta imagen](img/Nuevas/5.png)
+
+**5. Creación de issue por parte de user1**
+
+Saúl creó la siguiente issue:
+
+![sexta imagen](img/Nuevas/6.png)
+
+**6. Modificación por parte de Efrén**
+
+Efrén creó una rama llamada custom-text, modificó el contenido de index.html para personalizarlo como si fuera una página de presentación para una startup, e hizo un commit con los cambios.
+
+![septimaprimera imagen](img/Nuevas/7-1.png)
+![septimasegunda imagen](img/Nuevas/7-2.png)
+
+**7. Pull Request de Efrén a Saúl**
+
+Efrén abrió un Pull Request desde su rama custom-text a la rama main del repositorio original de Saúl.
+
+![octava imagen](img/Nuevas/8.png)
+
+**8. Prueba del PR y modificaciones adicionales**
+
+Saúl añadió el repositorio original como remoto upstream en su local, probó el PR en su máquina y realizó pequeños ajustes sobre el mismo PR, subiendo los cambios directamente a la rama de Efrén.
+
+![novena imagen](img/Nuevas/9.png)
+![decima imagen](img/Nuevas/10.png)
+
+**9. Conversación colaborativa en el PR y aprobación**
+
+Ambos usuarios intercambiaron comentarios dentro del PR y cada uno añadió un cambio adicional en el mismo. Finalmente, aprobó el PR, lo fusionó con la rama principal y cerró la issue original.
+
+![undecima imagen](img/Nuevas/11.png)
+
+**10. Sincronización del fork**
+
+Efrén actualizó su rama principal main con los cambios del repositorio original usando el remoto upstream, y de la misma, sincronizó su fork.
+
+![decimosegunda imagen](img/Nuevas/12.png)
+
+**12. Segunda issue: Mejora visual**
+
+Saúl creó una nueva issue titulada "Improve UX with cool colors"
+
+![decimotercera imagen](img/Nuevas/13.png)
+
+**13. Efrén cambió contenido de cover.css**
+
+Efrén cambió algunas líneas en cover.css, creando previamente una rama nueva, cool-colors.
+
+![decimosextaprimera imagen](img/Nuevas/16-1.png)
+![decimosextasegunda imagen](img/Nuevas/16-2.png)
+
+**14. Nueva Pull Request de Efrén a Saúl**
+
+Efrén abrió un Pull Request desde su rama cool-colors a la rama main del repositorio original de Saúl.
+
+![decimoseptima imagen](img/Nuevas/17.png)
+
+**15. Resolución de conflictos**
+
+Saúl había previamente realizado modificaciones en cover.css sin haber realizado un git push, por ende, tras la PR de Efrén, tuvo que solventar los conflictos generados.
+
+![decimooctavanovena imagen](img/Nuevas/18-19.png)
+
+**16. Resoluciones y etiquetación final**
+
+Tras resolver los conflictos, Saúl hizo un commit de sus cambios subiéndolos a su main. Finalmente etiquetó la versión del proyecto como la versión 0.1.0, creando una release apuntando hacia la etiqueta. Está etiquetación puede ser observable desde la pçagina principal del repositorio git-work de Saúl.
 
 #### ***Conclusiones***. <a name="id5"></a>
 
